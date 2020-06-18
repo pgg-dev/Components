@@ -1,0 +1,26 @@
+.root {
+  background-color: green;
+  border: 0;
+  background-color: #e0e0e0;
+  outline: 0;
+
+  &.disabled {
+    color: rgba(0, 0, 0, 0.26);
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+
+  &.small {
+  }
+
+  &.large {
+  }
+
+  &.contained {
+  }
+
+  &.outlined {
+    border: 1px solid;
+    background-color: #fff;
+  }
+}
